@@ -1,4 +1,4 @@
-name: tensor-operations
+name: pytorch-playground
 channels:
   - defaults
   - pytorch
@@ -10,3 +10,6 @@ dependencies:
   - matplotlib==3.5.2
   - pip:
     - numpy==1.23.0
+    - transformers==4.22.2
+    - botorch==0.8.1
+    - gpytorch == 1.9.1
